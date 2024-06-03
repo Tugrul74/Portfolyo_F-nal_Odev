@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Tuğrul Kara</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      <button id="ders-programi-butonu">Ders Notlarım</button>
+      
+
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:tkara643@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Merhaba, Ben Tuğrul Kara👋</h2>
+        <p>Web geliştirme kariyerim boyunca, hem frontend hem de backend alanında çeşitli projelerde çalıştım. HTML, CSS, JavaScript, React, Angular, Node.js, ve Python gibi modern web teknolojilerini kullanarak kullanıcı dostu ve performanslı web uygulamaları geliştirdim. Ayrıca, veritabanı yönetimi konusunda MySQL ve MongoDB ile deneyim sahibiyim.
+
+          Frontend Geliştirme: React ve Angular gibi framework’ler ile dinamik ve responsive kullanıcı arayüzleri tasarladım. CSS preprocessors (Sass, Less) ve çeşitli UI kütüphaneleri (Bootstrap, Material-UI) kullanarak estetik ve işlevsel tasarımlar oluşturdum.
+          Backend Geliştirme: Node.js ve Python ile RESTful API’ler ve mikroservis mimarileri geliştirdim. Express.js ve Django gibi framework’ler ile güvenli ve ölçeklenebilir backend sistemleri tasarladım.
+          Veritabanı Yönetimi: MySQL ve MongoDB gibi veritabanı sistemleri ile veri modelleme, sorgulama ve optimizasyon konularında tecrübeliyim.
+          Versiyon Kontrol ve DevOps: Git, GitHub ve GitLab kullanarak proje yönetimi ve kod versiyonlama konularında etkinim. CI/CD süreçleri için Jenkins ve Docker gibi araçlar ile deneyim kazandım.
+          İyi bir takım oyuncusu olmamın yanı sıra, bağımsız çalışabilme ve karmaşık problemleri çözme yeteneklerim de oldukça gelişmiştir. Yeni teknolojilere hızlı adapte olabilir ve sürekli öğrenme isteğiyle çalışırım.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/hero-headshot.webp" alt="john doe headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Yeteneklerim</h2>
+      <div class="text">
+        Bir Web Developer'ın Bilmesi grekn yol Haritasındayım İlgilendiğim ve üzerinde bulunduğum yeteneklerim
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/node-logo.webp" alt="node logo">
+          <span>Node.js</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/react-logo.webp" alt="react logo">
+          <span>React.js</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Referans</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/testimony-headshot.webp">
+          <p>Batuhan Demir</p>
+          <p>Mobil Developer</p>
+        </div>
+
+        <div class="text">
+          "Merhaba Ben Batuhan , KAra Bey ile Beraber Yaptığımız Mobil uygulama ile tecrübemden gayet memnunum. takım çalışmasına müsait , ve lider ruhlu birisi umarım nice projelerde yolumuz kesişir."
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>İletişim</h2>
+
+      <div class="group">
+        <div class="text">
+          Benimle Beraber projeler geliştirmek isterseniz veyahut çalışmak isterseniz iletişiminizi ve bildirimlerinizi bekliyor olucağım :)
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById('ders-programi-butonu').onclick = function() {
+        let dersProgrami = `
+            <html>
+            <head>
+                <title>Ders Programı</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        background-color: #f4f4f4;
+                        display: flex;
+                        justify-content: center;
+                        padding: 20px;
+                    }
+                    .container {
+                        background-color: #ffffff;
+                        padding: 20px;
+                        border-radius: 10px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                        max-width: 800px;
+                        width: 100%;
+                    }
+                    table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        margin-top: 20px;
+                    }
+                    th, td {
+                        border: 1px solid #dddddd;
+                        text-align: left;
+                        padding: 8px;
+                    }
+                    th {
+                        background-color: #f2f2f2;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <h2>Ders Programı</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ders Sayısı</th>
+                                <th>Ders Kodu</th>
+                                <th>Ders Adı</th>
+                                <th>S.Durum</th>
+                                <th>Sınav Notları</th>
+                                <th>Ort</th>
+                                <th>Not</th>
+                                <th>Durumu</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>DİA201</td>
+                                <td>Görsel Programlama</td>
+                                <td>Var</td>
+                                <td>Vize : 45 - Final 54</td>
+                                <td>50</td>
+                                <td>CC</td>
+                                <td>Geçti</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>DİA203</td>
+                                <td>Veri Tabanı</td>
+                                <td>Var</td>
+                                <td>Vize : 70 Final : 50</td>
+                                <td>58</td>
+                                <td>CC</td>
+                                <td>Geçti</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>DİA205</td>
+                                <td>Sunucu Yönetimi I</td>
+                                <td>Var</td>
+                                <td>Vize : 45 Final : 40 Büt : 55 </td>
+                                <td>51</td>
+                                <td>CC</td>
+                                <td>Geçti</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>DİA207</td>
+                                <td>Yönlendiriciler I</td>
+                                <td>Var</td>
+                                <td>Vize : 60 Final : 50 </td>
+                                <td>54</td>
+                                <td>CC</td>
+                                <td>Geçti</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>DİA211</td>
+                                <td>Proje Teknikleri ve Uygulama</td>
+                                <td>Var</td>
+                                <td>Vize : 70 Final : 54</td>
+                                <td>60</td>
+                                <td>CB</td>
+                                <td>Geçti</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>DİA213</td>
+                                <td>Ağ ve Bilgi Güvenliği</td>
+                                <td>Var</td>
+                                <td>Vize : 68 Final : 65</td>
+                                <td>66</td>
+                                <td>CB</td>
+                                <td>Geçti</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>DİA229</td>
+                                <td>Gömülü Sistem Programlama</td>
+                                <td>Var</td>
+                                <td>Vize : 46 Final : 70</td>
+                                <td>60</td>
+                                <td>CB</td>
+                                <td>Geçti</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>YDL185</td>
+                                <td>Yabancı Dil I</td>
+                                <td>Var</td>
+                                <td>Vize : 60 Final : 44 Büt : 52</td>
+                                <td>55</td>
+                                <td>CC</td>
+                                <td>Geçti</td>
+                                <p>2.09/4.0</p>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </body>
+            </html>
+        `;
+        let newWindow = window.open();
+        newWindow.document.write(dersProgrami);
+        newWindow.document.close();
+    }
+  </script>
+</body>
+</html>
